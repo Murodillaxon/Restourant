@@ -1,0 +1,16 @@
+.container{
+
+}
+
+.input_space input{
+    height: 30px;
+    width: 50%;
+    font-size: 18px;
+}
+
+.container button{
+    height: 30px;
+    width: 15%;
+    background-color: orange;
+    border: none;
+}

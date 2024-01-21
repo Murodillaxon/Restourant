@@ -1,0 +1,319 @@
+body {
+  margin: 0;
+  font-family: 'Pacifico', cursive;
+ 
+}
+
+body a{
+   text-decoration: none;
+}
+.Menu a{
+   text-decoration: none;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.header {
+  background-image: url(./img/bg.jpg);
+  height: 110vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header-line {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-logo{
+  width: 100px;
+  height: 100px;
+  
+}
+.header-logo img{
+  width: 100%;
+  height: 100%;border-radius: 12px;
+}
+.nav-item {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+
+  margin-right: 25px;
+
+  transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+  color: #d81d1d;
+}
+
+
+.cart {
+  position: relative;
+
+  border-right: 1px solid #FFFFFF;
+  padding-right: 10px;
+  height: 50px;
+}
+
+.cart-img {
+  position: absolute;
+  top: 18px;
+  right: 7px;
+}
+
+.num {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+
+  transition: color 0.3s linear;
+}
+
+.num:hover {
+  color: #d81d1d;
+}
+
+.phone-text {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.phone-holder {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #FF7400;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 18px;
+  font-weight: 700;
+
+  transition: background-color 0.2s linear;
+}
+
+.button:hover {
+  background-color: #894b17;
+}
+
+.header-down {
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-title {
+  color: #D67E35;
+  font-family: 'Tinos', serif;
+  font-size: 50px;
+  font-weight: 400;
+  
+
+  text-align: center;
+  left: 0;
+
+  margin-top: 222px;
+  margin-bottom: 12px;
+}
+
+
+.header-suptitle {
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header-button {
+  background-color: #FF7400;
+  padding: 14px 28px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+
+  transition: background-color 0.3s linear;
+}
+
+.header-button:hover {
+  background-color: #904506;
+}
+
+
+/* MENU SITE */
+
+.Menu {
+  position: absolute;
+  width: 88%;
+  height: 88%;
+  overflow-y: auto;
+  left: 5%;
+  bottom: -10%;
+  background-color: #fff;
+  transition: all 1s;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+  animation: trans .4s ease;
+  z-index: 20;
+}
+
+@keyframes trans{
+  0%{
+    transform: translateY(100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+
+
+.locSite span:hover {
+  cursor: pointer;
+  color: rgb(106, 25, 255);
+  border-bottom: 1px solid rgb(106, 25, 255);
+}
+
+.locSite {
+  width: 100%;
+}
+
+
+.Products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  cursor: pointer;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+
+}
+
+.product img{
+  width: 100%;
+  height: 100%;
+}
+
+.infoProduct{
+  position: absolute;
+  bottom: -100px;
+  color: #D67E35;
+  background-color: #555353e8;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  transition: bottom 0.3s ease;
+}
+.product:hover .infoProduct{
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* LOADING */
+
+.wrap {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transform: translate(-50%, -50%);
+}
+
+.text {
+  color: #fbae17;
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.bounceball {
+  position: relative;
+  display: inline-block;
+  height: 37px;
+  width: 15px;
+
+  &:before {
+    position: absolute;
+    content: '';
+    display: block;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fbae17;
+    transform-origin: 50%;
+    animation: bounce 500ms alternate infinite ease;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    top: 30px;
+    height: 5px;
+    border-radius: 60px 60px 20px 20px;
+    transform: scaleX(2);
+  }
+
+  35% {
+    height: 15px;
+    border-radius: 50%;
+    transform: scaleX(1);
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+
+.totalItems{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 10px;
+  position: absolute;
+  top: 22px;
+  right: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+
+
+

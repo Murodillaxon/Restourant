@@ -1,0 +1,370 @@
+{
+  "Menu": [
+    {
+      "name": "Хлеб Всему Рад !",
+      "img": "https://avatars.mds.yandex.net/i?id=27fdc8fbf2310ba888366db787f7c87a7d2965bd-8232745-images-thumbs&n=13",
+      "id": "BreadFood"
+    },
+    {
+      "name": "Закуски",
+      "img": "https://avatars.mds.yandex.net/i?id=1c245f635dbecf7ccfa61e70530eff1420869222-10928869-images-thumbs&n=13",
+      "id": "Appetizers"
+    },
+    {
+      "name": "Салаты",
+      "img": "https://avatars.mds.yandex.net/i?id=eadd6567b569b348e758534650d9c85e589644b0-10599899-images-thumbs&n=13",
+      "id": "Salads"
+    },
+    {
+      "name": "Супы",
+      "img": "https://avatars.mds.yandex.net/i?id=f2e84e84d76f7a5554f78befb42cb713c4e4faa3-11392985-images-thumbs&n=13",
+      "id": "Soups"
+    },
+    {
+      "name": "Мясные блюда",
+      "img": "https://avatars.mds.yandex.net/i?id=e5d350a467e6a42ed2666fc71011ecfcde8589f8-10636447-images-thumbs&n=13",
+      "id": "MeatDishes"
+    },
+    {
+      "name": "Куриные блюда",
+      "img": "https://avatars.mds.yandex.net/i?id=200934ea86bda6972041119bf79807c2cb56bc0c-9709143-images-thumbs&n=13",
+      "id": "6"
+    },
+    {
+      "name": "Рыбные блюда",
+      "img": "https://avatars.mds.yandex.net/i?id=0ae2dc3dc8eca72c5bca1116c38b3361655f007b-10962086-images-thumbs&n=13",
+      "id": "7"
+    },
+    {
+      "name": "Оващные блюда",
+      "img": "https://avatars.mds.yandex.net/i?id=433f788bf3f78730f713e1bc4241094aecdc7986-10733191-images-thumbs&n=13",
+      "id": "8"
+    },
+    {
+      "name": "Напитки",
+      "img": "https://avatars.mds.yandex.net/i?id=8b46cf57b3c21100dc819dcb39ea81ab792aa052-3925790-images-thumbs&n=13",
+      "id": "9"
+    },
+    {
+      "name": "Десерты",
+      "img": "https://avatars.mds.yandex.net/i?id=ac540b1a6f4b0e20bbb91e7146dd06a218c72784-4566892-images-thumbs&n=13",
+      "id": "10"
+    }
+  ],
+  "BreadFood": [
+    {
+      "name": "Чесночные гренки",
+      "image": "https://avatars.mds.yandex.net/i?id=1d67cba829b79924f4076533c5143c3898aa824e-10850090-images-thumbs&n=13",
+      "price": 7900.00,
+      "id": "chesnochnye-grenki"
+    },
+    {
+      "name": "Фокачча с розмарином",
+      "image": "https://avatars.mds.yandex.net/i?id=6b9295d53f0c42bb256206040ddea84becfed588-10840543-images-thumbs&n=13",
+      "price": 14900.00,
+      "id": "fokaccha-s-rozmarinom"
+    },
+    {
+      "name": "Луковый хлеб с тмином",
+      "image": "https://avatars.mds.yandex.net/i?id=ba783ab4fd3261930d8d0d145c327f61124c42b5-10703429-images-thumbs&n=13",
+      "price": 22900.00,
+      "id": "lukovyj-hleb-s-tminom"
+    }
+  ],
+  "Appetizers": [
+    {
+      "name": "Ароматные Брускетты",
+      "image": "https://avatars.mds.yandex.net/i?id=40e5b061a9fc5b8f21399ace47f55eb9-5598230-images-thumbs&n=13",
+      "price": 12000,
+      "id": "aromatnye-bruskety"
+    },
+    {
+      "name": "Карибские Креветки в Коктейльном Соусе",
+      "image": "https://avatars.mds.yandex.net/i?id=26d05b18cd936d0fee4e18bcdbe918bf60d687f7-9820447-images-thumbs&n=13",
+      "price": 22000,
+      "id": "karibskie-krevetki-v-koktejlnom-souse"
+    },
+    {
+      "name": "Фета-Роллы с Оливками",
+      "image": "https://avatars.mds.yandex.net/i?id=bcdf2ecc710e16a36ad6c6453fb1033bddeefd22-10087650-images-thumbs&n=13",
+      "price": 16000,
+      "id": "feta-rolly-s-olivkami"
+    },
+    {
+      "name": "Карамельные Куриные Крылышки",
+      "image": "https://avatars.mds.yandex.net/i?id=26a636371a38fd06a64ea93f21e5b586b0ebe907-12525650-images-thumbs&n=13",
+      "price": 18000,
+      "id": "karamelnye-kurinye-krylishki"
+    },
+    {
+      "name": "Лососевые Блинчики с Тартаром",
+      "image": "https://avatars.mds.yandex.net/i?id=34f3d9b81ab4a0a43f394d55172b8328c28ece25-10639206-images-thumbs&n=13",
+      "price": 25000,
+      "id": "lososyevoe-blinchiki-s-tartarom"
+    },
+    {
+      "name": "Жареный Кальмар с Лимоном и Чесночным Соусом",
+      "image": "https://avatars.mds.yandex.net/i?id=0531f76f564e9787c855f424a45e3f000dc11660-9182224-images-thumbs&n=13",
+      "price": 20000,
+      "id": "zharenyj-kalmar-s-limonom-i-chesnochnym-sousom"
+    },
+    {
+      "name": "Креветки с Гуакамоле и Чипсами",
+      "image": "https://avatars.mds.yandex.net/i?id=fb14d9076c24ad961d928a9b426785c6d48e35b1-10471591-images-thumbs&n=13",
+      "price": 26000,
+      "id": "krevetki-s-guakamole-i-chipsami"
+    },
+    {
+      "name": "Шпинатные и Фета Канапе",
+      "image": "https://avatars.mds.yandex.net/i?id=1f0c411787868649c6cbd6ac1363e384cc2a2c89-9106968-images-thumbs&n=13",
+      "price": 14000,
+      "id": "shpinatniye-i-feta-kanape"
+    },
+    {
+      "name": "Красные Фаршированные Перчики с Чесноком",
+      "image": "https://avatars.mds.yandex.net/i?id=070c6d6888ca23a5278435b19f886a3f4f9dbd59-10967292-images-thumbs&n=13",
+      "price": 17000,
+      "id": "krasniye-farshirovanniye-perchiki-s-chernikom"
+    },
+    {
+      "name": "Мини-Кесадильи с Цыпленком и Сыром",
+      "image": "https://avatars.mds.yandex.net/i?id=3d06ebea261c9a047897500dbaaf8e8ab346f128-10414364-images-thumbs&n=13",
+      "price": 21000,
+      "id": "mini-kesadilli-s-tsyplyenkom-i-syrom"
+    },
+    {
+      "name": "Овощные Рулетики с Черничным Соусом",
+      "image": "https://avatars.mds.yandex.net/i?id=9b0be5688a50aac7a8dc195d1bdcaaaf3158b9d7-5233604-images-thumbs&n=13",
+      "price": 15000,
+      "id": "ovoshchnye-ruletiki-s-chernichnym-sousom"
+    },
+    {
+      "name": "Картофельные Дольки с Трюфельным Маслом",
+      "image": "https://avatars.mds.yandex.net/i?id=745c209d5a3fa8306c8eaed010db7555df1d5504-10639206-images-thumbs&n=13",
+      "price": 19000,
+      "id": "kartofelnye-dolki-s-tryufelnym-maslom"
+    }
+  ],
+  "Salads": [
+    {
+      "name": "Греческий салат с фетой",
+      "price": 18000,
+      "id": "grecheskij-salat-s-fetoj",
+      "image": "https://avatars.mds.yandex.net/i?id=2e8db3aa689f122b8732d49a8965a181a6cd1d59-8411463-images-thumbs&n=13"
+    },
+    {
+      "name": "Цезарь с курицей",
+      "price": 20000,
+      "id": "tsezar-s-kuricej",
+      "image": "https://avatars.mds.yandex.net/i?id=fa0ea04af1a0d516a8a29ada27195343d6840935-12491002-images-thumbs&n=13"
+    },
+    {
+      "name": "Салат Нисуаз",
+      "price": 22000,
+      "id": "salat-nisuaz",
+      "image": "https://avatars.mds.yandex.net/i?id=dbbf10e2e14462d9ae41ef75984f93d8fec9e109-10471586-images-thumbs&n=13"
+    },
+    {
+      "name": "Авокадо с креветками",
+      "price": 24000,
+      "id": "avokado-s-krevetkami",
+      "image": "https://avatars.mds.yandex.net/i?id=861e2f982b0afc903b3701df17b9fba68bd7b0b7-9854329-images-thumbs&n=13"
+    },
+    {
+      "name": "Томатный салат с моцареллой",
+      "price": 19000,
+      "id": "tomatnyj-salat-s-mocarelloj",
+      "image": "https://avatars.mds.yandex.net/i?id=96fbd23089d9203968d27a30c64c6c9e964ae76a-8972573-images-thumbs&n=13"
+    },
+    {
+      "name": "Крабовый салат с авокадо",
+      "price": 21000,
+      "id": "krabovyj-salat-s-avokado",
+      "image": "https://avatars.mds.yandex.net/i?id=7eb9b8dbea32195b9b86a5fc5b51b71893af2de6-10385933-images-thumbs&n=13"
+    },
+    {
+      "name": "Лосось и шпинатный салат",
+      "price": 23000,
+      "id": "losos-i-shpinatnyj-salat",
+      "image": "https://avatars.mds.yandex.net/i?id=42b54b06f9adb89b30aeb31a57c5c86ada35e285-10981924-images-thumbs&n=13"
+    },
+    {
+      "name": "Салат с манго и курицей",
+      "price": 25000,
+      "id": "salat-s-mango-i-kuricej",
+      "image": "https://avatars.mds.yandex.net/i?id=405cb141a6ecb09a895c878aef09223371d20179-10871821-images-thumbs&n=13"
+    },
+    {
+      "name": "Черри и фета салат",
+      "price": 17000,
+      "id": "cherri-i-feta-salat",
+      "image": "https://avatars.mds.yandex.net/i?id=2c8bd1f44f4e5eb7757e022810daf2552af0fd32-10813963-images-thumbs&n=13"
+    },
+    {
+      "name": "Капустный салат с горчичным соусом",
+      "price": 20000,
+      "id": "kapustnyj-salat-s-gorchichnym-sousom",
+      "image": "https://avatars.mds.yandex.net/i?id=cf79fb39d4a4e4f7a28f0a3689e55ddc87ea39d6-10921454-images-thumbs&n=13"
+    },
+    {
+      "name": "Салат с красным луком и гранатом",
+      "price": 18000,
+      "id": "salat-s-krasnym-lukom-i-granatom",
+      "image": "https://avatars.mds.yandex.net/i?id=c3477b9e9f1a4196786ea34fcaaf6cd1528ed272-8769045-images-thumbs&n=13"
+    },
+    {
+      "name": "Мексиканский салат с чипсами",
+      "price": 21000,
+      "id": "meksikanskij-salat-s-chipsami",
+      "image": "https://avatars.mds.yandex.net/i?id=b1e876cd36b679ffc31c859f65980f44225a9388-9215651-images-thumbs&n=13"
+    }
+  ],
+  "Soups": [
+    {
+      "name": "Томатный суп с базиликом",
+      "price": 15000,
+      "id": "tomatnyj-sup-s-bazilikom",
+      "image": "https://avatars.mds.yandex.net/i?id=a04137364bbd672682a97f06d1c80456bdcb4b6d-8076535-images-thumbs&n=13"
+    },
+    {
+      "name": "Куриный бульон с лапшой",
+      "price": 17000,
+      "id": "kurinyj-bulon-s-lapshoj",
+      "image": "https://avatars.mds.yandex.net/i?id=4c80c6e0794f2a06535cdfd82da45cee8c330a5e-10375362-images-thumbs&n=13"
+    },
+    {
+      "name": "Гороховый крем-суп",
+      "price": 16000,
+      "id": "gorohovyj-krem-sup",
+      "image": "https://avatars.mds.yandex.net/i?id=5cce486a5bf38185c8936d647638622e0b284018-10114686-images-thumbs&n=13"
+    },
+    {
+      "name": "Картофельный суп с грибами",
+      "price": 18000,
+      "id": "kartofelnyj-sup-s-gribami",
+      "image": "https://avatars.mds.yandex.net/i?id=c5020244e50b0c423272522c1521afe9d37b3866-4373853-images-thumbs&n=13"
+    },
+    {
+      "name": "Рыбный чаудер",
+      "price": 20000,
+      "id": "rybnyj-chauder",
+      "image": "https://avatars.mds.yandex.net/i?id=9924ebedb4e4e507c5e36372e9fd428691bf39cf-10555228-images-thumbs&n=13"
+    },
+    {
+      "name": "Овощной минестроне",
+      "price": 19000,
+      "id": "ovoshhnoj-minestrone",
+      "image": "https://avatars.mds.yandex.net/i?id=598185f1b71a7366499f2d8d734853b8494cd358-3706871-images-thumbs&n=13"
+    },
+    {
+      "name": "Чесночный картофельный крем-суп",
+      "price": 21000,
+      "id": "chesnochnyj-kartofelnyj-krem-sup",
+      "image": "https://avatars.mds.yandex.net/i?id=c40b1e9bdfef21876510ec14b31e52bd6fe843d5-9840106-images-thumbs&n=13"
+    },
+    {
+      "name": "Луковый суп с сырными гренками",
+      "price": 22000,
+      "id": "lukovyj-sup-s-syrnymi-grenkami",
+      "image": "https://avatars.mds.yandex.net/i?id=07abb176c388dd7e94d8c92765641410bae630c4-6327735-images-thumbs&n=13"
+    },
+    {
+      "name": "Кокосовый карри-суп с креветками",
+      "price": 23000,
+      "id": "kokosovyj-karri-sup-s-krevetkami",
+      "image": "https://avatars.mds.yandex.net/i?id=b267a1684a5529545b0ade47a6649fb826ec4e90-12525650-images-thumbs&n=13"
+    },
+    {
+      "name": "Грибной крем-суп с трюфелями",
+      "price": 25000,
+      "id": "gribnoj-krem-sup-s-tryufeljami",
+      "image": "https://avatars.mds.yandex.net/i?id=a2ca00b23d789722c9b89864c1426a947172bac5-9086612-images-thumbs&n=13"
+    },
+    {
+      "name": "Мисо-суп с тофу и водорослями",
+      "price": 24000,
+      "id": "miso-sup-s-tofu-i-vodorosljami",
+      "image": "https://avatars.mds.yandex.net/i?id=f0b1c213c98887bc62620390780cd4a7c5ae6592-10878377-images-thumbs&n=13"
+    },
+    {
+      "name": "Борщ с пампушками",
+      "price": 20000,
+      "id": "borshh-s-pampushkami",
+      "image": "https://avatars.mds.yandex.net/i?id=d228e5ca950fafed7997369dd9cb6bfed5bef62f-8178604-images-thumbs&n=13"
+    }
+  ],
+  "MeatDishes": [
+    {
+      "name": "Стейк из говядины с соусом демигляс",
+      "price": 35000,
+      "id": "stejk-iz-govyadiny-s-sousom-demiglas",
+      "image": "https://avatars.mds.yandex.net/i?id=2162bfb74fefe4d4f86cb027dd856a74fee6286e-9266169-images-thumbs&n=13"
+    },
+    {
+      "name": "Куриные котлеты с картошкой по-деревенски",
+      "price": 28000,
+      "id": "kurinye-kotlety-s-kartoshkoj-po-derevenski",
+      "image": "Куриные котлеты с картошкой по-деревенски"
+    },
+    {
+      "name": "Свиные ребрышки в медово-горчичном соусе",
+      "price": 32000,
+      "id": "svinye-rebryshki-v-medovo-gorchichnom-souse",
+      "image": "Свиные ребрышки в медово-горчичном соусе"
+    },
+    {
+      "name": "Бифштекс с грибным соусом",
+      "price": 38000,
+      "id": "bifshteks-s-gribnym-sousom",
+      "image": "Бифштекс с грибным соусом"
+    },
+    {
+      "name": "Утка по-пекински с апельсиновым соусом",
+      "price": 42000,
+      "id": "utka-po-pekinski-s-apelsinovym-sousom",
+      "image": "https://avatars.mds.yandex.net/i?id=ee8636620b6c97f6a708d62606cec3505442a307-9459824-images-thumbs&n=13"
+    },
+    {
+      "name": "Телячьи медальоны с розмариновым картофельным пюре",
+      "price": 45000,
+      "id": "teljachy-meda'lony-s-rozmarinovym-kartofel'nym-pjure",
+      "image": "https://avatars.mds.yandex.net/i?id=57ac6f80de2248a54f60075d256659ffe8ab2073-10868638-images-thumbs&n=13"
+    },
+    {
+      "name": "Пельмени с лососем и сливочным соусом",
+      "price": 36000,
+      "id": "pel'meni-s-lososem-i-slivocnym-sousom",
+      "image": "https://avatars.mds.yandex.net/i?id=32bdaf2a5281d128eaef59c36778f289c564c5fd-8497235-images-thumbs&n=13"
+    },
+    {
+      "name": "Кебаб из креветок с лимонно-чесночным соусом",
+      "price": 40000,
+      "id": "kebab-iz-krevetok-s-limonno-chesnochnym-sousom",
+      "image": "https://avatars.mds.yandex.net/i?id=11606ef34483b7a8ea18a8d6b8802e7f7695e0df-10967292-images-thumbs&n=13"
+    },
+    {
+      "name": "Фаршированная курица с грибами и сыром",
+      "price": 38000,
+      "id": "farshirovannaja-kurica-s-gribami-i-syrom",
+      "image": "https://avatars.mds.yandex.net/i?id=9992c6cb200e2091529deaaff6349bf5cd8fc581-5242655-images-thumbs&n=13"
+    },
+    {
+      "name": "Гуляш из ягненка с овощами",
+      "price": 42000,
+      "id": "guljash-iz-jagnenka-s-ovoshami",
+      "image": "https://avatars.mds.yandex.net/i?id=fbb5d1a0d553cf8cebfcfe1f9228767ef143bafb-10964795-images-thumbs&n=13"
+    },
+    {
+      "name": "Филе миньон с перчиками и соусом бордо",
+      "price": 46000,
+      "id": "file-min'on-s-perchikami-i-sousom-bordo",
+      "image": "https://avatars.mds.yandex.net/i?id=04d9f211f13b26f475fdcd3295041222e31d142e-9831706-images-thumbs&n=13"
+    },
+    {
+      "name": "Карри с кроликом и кокосовым молоком",
+      "price": 40000,
+      "id": "karri-s-krolikom-i-kokosovym-molokom",
+      "image": "https://avatars.mds.yandex.net/i?id=e1bf930800394d31d1dd75db52eacaceebffbac8-5247089-images-thumbs&n=13"
+    }
+  ]
+}
